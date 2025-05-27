@@ -8,10 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		045821BC2DD6631D00498642 /* srWach Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 045821BB2DD6631D00498642 /* srWach Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		045821C12DD6631D00498642 /* srWachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045821C02DD6631D00498642 /* srWachApp.swift */; };
 		045821C32DD6631D00498642 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045821C22DD6631D00498642 /* ContentView.swift */; };
 		045821C52DD6631E00498642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045821C42DD6631E00498642 /* Assets.xcassets */; };
 		045821C82DD6631E00498642 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045821C72DD6631E00498642 /* Preview Assets.xcassets */; };
+		045821DD2DD7BEC200498642 /* SecureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045821D32DD7BEC100498642 /* SecureMessage.swift */; };
+		045821DE2DD7BEC200498642 /* SecurityLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045821D42DD7BEC100498642 /* SecurityLevel.swift */; };
+		045821DF2DD7BEC200498642 /* srWach_Watch_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045821D52DD7BEC100498642 /* srWach_Watch_App.swift */; };
+		045821E22DD7BEC200498642 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045821DA2DD7BEC200498642 /* Preview Assets.xcassets */; };
+		045821E32DD7BEC200498642 /* srWachWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045821DC2DD7BEC200498642 /* srWachWatchViewModel.swift */; };
+		045821E52DD7BF3600498642 /* srWach Watch App-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 045821E42DD7BF3600498642 /* srWach Watch App-Info.plist */; };
+		045821E72DD7BFC100498642 /* srWachContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045821E62DD7BFC100498642 /* srWachContentView.swift */; };
+		04FC2CF02DDCF68D00FA7416 /* SecureTransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC2CEE2DDCF68D00FA7416 /* SecureTransferView.swift */; };
+		04FC2CF12DDCF68D00FA7416 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC2CEF2DDCF68D00FA7416 /* DashboardView.swift */; };
+		04FC2CF42DDCF6CD00FA7416 /* TransferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC2CF22DDCF6CD00FA7416 /* TransferManager.swift */; };
+		04FC2CF52DDCF6CD00FA7416 /* SecurityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC2CF32DDCF6CD00FA7416 /* SecurityManager.swift */; };
+		04FC2CF72DDCF7A400FA7416 /* HealthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC2CF62DDCF7A400FA7416 /* HealthData.swift */; };
+		04FC2CF92DDCF9AB00FA7416 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC2CF82DDCF9AB00FA7416 /* SplashView.swift */; };
+		04FC2CFE2DDD009C00FA7416 /* CrossPlatformManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC2CFA2DDD009B00FA7416 /* CrossPlatformManager.swift */; };
+		04FC2CFF2DDD009C00FA7416 /* ContextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC2CFB2DDD009C00FA7416 /* ContextManager.swift */; };
+		04FC2D002DDD009C00FA7416 /* ChannelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC2CFC2DDD009C00FA7416 /* ChannelManager.swift */; };
+		04FC2D012DDD009C00FA7416 /* RedactionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC2CFD2DDD009C00FA7416 /* RedactionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +57,26 @@
 /* Begin PBXFileReference section */
 		045821B52DD6631D00498642 /* srWach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = srWach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045821BB2DD6631D00498642 /* srWach Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "srWach Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		045821C02DD6631D00498642 /* srWachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = srWachApp.swift; sourceTree = "<group>"; };
 		045821C22DD6631D00498642 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		045821C42DD6631E00498642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045821C72DD6631E00498642 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		045821D32DD7BEC100498642 /* SecureMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureMessage.swift; sourceTree = "<group>"; };
+		045821D42DD7BEC100498642 /* SecurityLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityLevel.swift; sourceTree = "<group>"; };
+		045821D52DD7BEC100498642 /* srWach_Watch_App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = srWach_Watch_App.swift; sourceTree = "<group>"; };
+		045821DA2DD7BEC200498642 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		045821DC2DD7BEC200498642 /* srWachWatchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = srWachWatchViewModel.swift; sourceTree = "<group>"; };
+		045821E42DD7BF3600498642 /* srWach Watch App-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "srWach Watch App-Info.plist"; sourceTree = "<group>"; };
+		045821E62DD7BFC100498642 /* srWachContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = srWachContentView.swift; sourceTree = "<group>"; };
+		04FC2CEE2DDCF68D00FA7416 /* SecureTransferView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureTransferView.swift; sourceTree = "<group>"; };
+		04FC2CEF2DDCF68D00FA7416 /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		04FC2CF22DDCF6CD00FA7416 /* TransferManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferManager.swift; sourceTree = "<group>"; };
+		04FC2CF32DDCF6CD00FA7416 /* SecurityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityManager.swift; sourceTree = "<group>"; };
+		04FC2CF62DDCF7A400FA7416 /* HealthData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthData.swift; sourceTree = "<group>"; };
+		04FC2CF82DDCF9AB00FA7416 /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		04FC2CFA2DDD009B00FA7416 /* CrossPlatformManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossPlatformManager.swift; sourceTree = "<group>"; };
+		04FC2CFB2DDD009C00FA7416 /* ContextManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextManager.swift; sourceTree = "<group>"; };
+		04FC2CFC2DDD009C00FA7416 /* ChannelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelManager.swift; sourceTree = "<group>"; };
+		04FC2CFD2DDD009C00FA7416 /* RedactionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedactionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +110,12 @@
 		045821BF2DD6631D00498642 /* srWach Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				045821C02DD6631D00498642 /* srWachApp.swift */,
+				045821E42DD7BF3600498642 /* srWach Watch App-Info.plist */,
+				045821D22DD7BEC100498642 /* Models */,
+				045821D92DD7BEC200498642 /* Preview Content */,
+				045821D52DD7BEC100498642 /* srWach_Watch_App.swift */,
+				045821DB2DD7BEC200498642 /* ViewModels */,
+				045821D72DD7BEC200498642 /* Views */,
 				045821C22DD6631D00498642 /* ContentView.swift */,
 				045821C42DD6631E00498642 /* Assets.xcassets */,
 				045821C62DD6631E00498642 /* Preview Content */,
@@ -92,6 +129,49 @@
 				045821C72DD6631E00498642 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		045821D22DD7BEC100498642 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04FC2CFC2DDD009C00FA7416 /* ChannelManager.swift */,
+				04FC2CFB2DDD009C00FA7416 /* ContextManager.swift */,
+				04FC2CFA2DDD009B00FA7416 /* CrossPlatformManager.swift */,
+				04FC2CFD2DDD009C00FA7416 /* RedactionManager.swift */,
+				04FC2CF62DDCF7A400FA7416 /* HealthData.swift */,
+				04FC2CF32DDCF6CD00FA7416 /* SecurityManager.swift */,
+				04FC2CF22DDCF6CD00FA7416 /* TransferManager.swift */,
+				045821D32DD7BEC100498642 /* SecureMessage.swift */,
+				045821D42DD7BEC100498642 /* SecurityLevel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		045821D72DD7BEC200498642 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04FC2CF82DDCF9AB00FA7416 /* SplashView.swift */,
+				04FC2CEF2DDCF68D00FA7416 /* DashboardView.swift */,
+				04FC2CEE2DDCF68D00FA7416 /* SecureTransferView.swift */,
+				045821E62DD7BFC100498642 /* srWachContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		045821D92DD7BEC200498642 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				045821DA2DD7BEC200498642 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		045821DB2DD7BEC200498642 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				045821DC2DD7BEC200498642 /* srWachWatchViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +260,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045821E22DD7BEC200498642 /* Preview Assets.xcassets in Resources */,
 				045821C82DD6631E00498642 /* Preview Assets.xcassets in Resources */,
+				045821E52DD7BF3600498642 /* srWach Watch App-Info.plist in Resources */,
 				045821C52DD6631E00498642 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,7 +275,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				045821C32DD6631D00498642 /* ContentView.swift in Sources */,
-				045821C12DD6631D00498642 /* srWachApp.swift in Sources */,
+				04FC2CF12DDCF68D00FA7416 /* DashboardView.swift in Sources */,
+				04FC2CF02DDCF68D00FA7416 /* SecureTransferView.swift in Sources */,
+				045821E32DD7BEC200498642 /* srWachWatchViewModel.swift in Sources */,
+				045821E72DD7BFC100498642 /* srWachContentView.swift in Sources */,
+				04FC2D012DDD009C00FA7416 /* RedactionManager.swift in Sources */,
+				04FC2CF92DDCF9AB00FA7416 /* SplashView.swift in Sources */,
+				04FC2CF42DDCF6CD00FA7416 /* TransferManager.swift in Sources */,
+				04FC2CFF2DDD009C00FA7416 /* ContextManager.swift in Sources */,
+				045821DF2DD7BEC200498642 /* srWach_Watch_App.swift in Sources */,
+				045821DE2DD7BEC200498642 /* SecurityLevel.swift in Sources */,
+				045821DD2DD7BEC200498642 /* SecureMessage.swift in Sources */,
+				04FC2D002DDD009C00FA7416 /* ChannelManager.swift in Sources */,
+				04FC2CF72DDCF7A400FA7416 /* HealthData.swift in Sources */,
+				04FC2CF52DDCF6CD00FA7416 /* SecurityManager.swift in Sources */,
+				04FC2CFE2DDD009C00FA7416 /* CrossPlatformManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
